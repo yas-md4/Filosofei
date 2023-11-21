@@ -1,0 +1,81 @@
+body {
+  background-color: #171E2E;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.cabecalho>h1 {
+  font-size: 64px;
+  color: snow;
+}
+
+.conteudo {
+  height: 400px;
+  padding: 20px 200px 20px 200px;
+
+}
+
+.conteudo>p {
+  color: snow;
+  font-size: 40px;
+}
+
+.video {
+  text-align: center;
+  width: 940px;
+}
+
+#titulo-video {
+  color: snow;
+  font-size: 40px;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.rodape>a>img {
+  width: 100px;
+  height: 100px;
+  color: snow;
+  fill: snow;
+}
+
+.bolinha {
+  border: 2px solid snow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5000px;
+  height: 280px;
+  width: 280px;
+  margin-right: 20px;
+}
+
+.bolinha:hover {
+  cursor: pointer;
+}
+
+.bolinha>img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 8px;
+}
+
+
+
+#saber_filosofia {
+  background-color: #36B6C4;
+}

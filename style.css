@@ -1,0 +1,153 @@
+body {
+  background-color: #181E2E;
+  display: flex;
+}
+
+.area_esquerda {
+  width: 1020px;
+  margin: 0 100px 0 100px;
+}
+
+.titulo_principal {
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.texto_horizontal {
+  display: flex;
+  margin: 100px 0;
+}
+
+.textos {
+  color: white;
+  font-size: 30px;
+}
+
+q {
+  position: absolute;
+  top: 170px;
+  right: 210px;
+}
+
+.imagem_nuvem {
+  margin-top: 30px;
+  margin-left: 270px;
+}
+
+.entrada_dados {
+  display: flex;
+  border-radius: 500px;
+  width: 100px;
+  height: 100px;
+  background-color: #0088dd;
+}
+
+.lista_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+  width: 1000px;
+}
+
+.bolinha {
+  border: 2px solid snow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5000px;
+  height: 280px;
+  width: 280px;
+}
+
+.bolinha:hover {
+  cursor: pointer;
+}
+
+li>a>img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 8px;
+}
+
+#saber_filosofia {
+  background-color: #36B6C4;
+}
+
+#filosofia_brasil {
+  background-color: #FF7222;
+}
+
+#principais_filosofos {
+  background-color: #019141;
+
+}
+
+/* definições para a página de Contato */
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+  color: snow;
+}
+
+form label,
+form p {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  margin: 0 0 10px;
+  color: snow;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  width: 50%;
+  color: snow;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+#meuTexto {
+  color: snow;
+  font-size: 30px;
+  margin-top: 2px;
+}
+
+fieldset {
+  border: none;
+}
+
+.enviar {
+  width: 100%;
+  padding: 15px 0;
+  background: blueviolet;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: darkblue;
+  transform: scale(1.2);
+
+}
+
+.video {  
+  text-align:center;
+  width: 940px;
+}
